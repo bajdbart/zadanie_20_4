@@ -5,7 +5,6 @@ import Home from './presentational/home.component';
 import Contact from './presentational/contact.component';
 import NotFound from './presentational/not-found.component';
 
-
 export default (
     <Route path='/' component={Navigation}>
         <IndexRoute component={Home}/>

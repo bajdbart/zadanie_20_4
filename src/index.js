@@ -6,7 +6,6 @@ import store from './store';
 import routes from './routes';
 import DevTools from './DevTools';
 
-
 render(
     <Provider store={store}>
         <div>
